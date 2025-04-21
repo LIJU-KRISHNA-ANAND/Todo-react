@@ -8,7 +8,7 @@ export interface Task {
   dueDate?: string;
 }
 
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "http://127.0.0.1:10000/api/tasks";
 
 interface TaskState {
   tasks: Task[];
